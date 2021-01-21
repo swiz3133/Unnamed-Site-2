@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+nav img{
+	width: 200px;
+	position: absolute;
+	top: -56px;
+	left: 10%;
+}
+nav ul{
+	float: right;
+	margin-right: 25px;
+	position: absolute;
+	right: 10%;
+	
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 15px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	letter-spacing: 5px;
+	
+}
+nav ul li a{
+	position: relative;
+	color: white;
+	font-size: 1em;
+	padding: 7px;
+	text-transform: uppercase;
+	float: right;
+	top:1px;
+	letter-spacing: 1px;
+	
+}
+
+nav ul li a:hover{
+	border-bottom: 1px solid white;
+	
+	margin-bottom: 5px;
+	
+}
+
+p{
+	color: white;
+	position: absolute;
+	top: 96%;
+	left: 50%;
+	font-size: 24px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+h1 {
+	
+	color: white;
+    height: 100%;
+	text-align: center;
+	font-family: 'ariel';
+	
+	
+}
+
+.logoHeader{
+	display: flex;
+	justify-content: center;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.box1{
+	height: 100vh;
+	width: 100%;
+	background-image: url(alcoholic-beverage-bar-beer-beverage-1269025.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: table;
+	}
+
+.box2{
+	height:100vh;
+	width: 100%;
+	color: wheat;
+	background-color: wheat;
+	
+}
+
+.box3{
+	height:100vh;
+	width: 100%;
+	background-image: url(two-men-and-woman-sitting-next-to-each-other-2479312.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: table;
+}
+.box4{
+	height:100vh;
+	width: 100%;
+	background-image: url(pexels-kaba-camara-4931334.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.box5{
+	height:100vh;
+	width: 100%;
+	background-image: url(pexels-andrea-piacquadio-3777704.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.box6{
+	height:100vh;
+	width: 100%;
+	background-image: url(purple-fireworks-effect-1190298.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.overlay{
+	background:rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
+		
+
+/**
+nav ul li a:before{
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	background: white;
+	transform: scaleX(0);
+	transform-origin: right;
+}
+nav ul li a:hover:before{
+	transform: scaleX(1);
+	transform-origin: left;
+}
+label #btn,
+label #cancel{
+	color: white;
+	font-size: 30px;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;	
+}
+@media (max-width: 1118px) {
+	nav img{
+		left: 8%;
+	}
+}
